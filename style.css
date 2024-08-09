@@ -67,7 +67,10 @@ button:hover{
 
 /* estilo do cabeçalho  */
 header{
+    position: sticky;
+    top: 0;
     padding: 40px 4%;
+    z-index: 4000;
 }
 header .interface{
     display: flex;
@@ -417,6 +420,14 @@ footer .line-footer p a{
 
 .borda{
     border-top: 2px solid #a780a7;
+}
+
+@media (max-width: 1280px){
+    header nav.menu-desktop ul li{
+        display: inline-block;
+        padding: 0 20px;
+        font-size: 15px;
+    }
 }
 
 
