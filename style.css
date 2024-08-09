@@ -1,4 +1,7 @@
 /* estilo geral */
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -29,6 +32,17 @@ body{
     transition: .2s;
 }
 
+.menu-desktop ul li a{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:rgb(126, 56, 143);
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
 h2.titulo{
     color: #fff;
     font-size: 38px;
@@ -55,7 +69,7 @@ button:hover{
 header{
     padding: 40px 4%;
 }
-header> .interface{
+header .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,6 +104,9 @@ header nav.menu-desktop ul li{
     font-size: 40px;
 }
  
+.btn-abrir-menu{
+    display: none;
+}
 .menu-mobile{
     background-color: #610a61;
     height: 100vh;
@@ -100,6 +117,7 @@ header nav.menu-desktop ul li{
     width: 0%;
     overflow: hidden;
     transition: .5s;
+    display: none;
 }
 
 .menu-mobile.abrir-menu{
@@ -485,6 +503,14 @@ footer .line-footer p a{
 
     footer .line-footer{
         text-align: center;
+    }
+
+    .menu-mobile{
+        display: flex;
+    }
+
+    .btn-abrir-menu{
+        display: flex;
     }
 
 }

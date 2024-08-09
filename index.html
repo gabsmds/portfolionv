@@ -19,16 +19,16 @@
             </div>
             <nav class="menu-desktop">
                 <ul> 
-                    <li> <a href="#">Início</a></li>
-                    <li> <a href="#">Minhas especialidades</a></li>
-                    <li> <a href="#">Sobre mim</a></li>
-                    <li> <a href="#">Projetos</a></li>
+                    <li> <a href="#inicio" class="ativ js-link">Início</a></li>
+                    <li> <a href="#espec" class="js-link">Minhas especialidades</a></li>
+                    <li> <a href="#sobre" class="js-link">Sobre mim</a></li>
+                    <li> <a href="#proj" class="js-link">Projetos</a></li>
 
                 </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="#contato" class="js-link">
                     <button>Contato</button>
                 </a>
             </div>
@@ -44,11 +44,11 @@
 
                 <nav>
                     <ul> 
-                        <li> <a href="#">Início</a></li>
-                        <li> <a href="#">Minhas especialidades</a></li>
-                        <li> <a href="#">Sobre mim</a></li>
-                        <li> <a href="#">Projetos</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li> <a href="#inicio" class="ativ js-link">Início</a></li>
+                        <li> <a href="#espec" class="js-link">Minhas especialidades</a></li>
+                        <li> <a href="#sobre" class="js-link">Sobre mim</a></li>
+                        <li> <a href="#proj" class="js-link">Projetos</a></li>
+                        <li> <a href="#contato" class="js-link">Contato</a></li>
                     </ul>
                 </nav>
 
@@ -60,124 +60,140 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
-            <div class="interface">
-                <div class="flex">
-                    <div class="txt-topo-site">
-                        <p>Me chamo</p>
-                        <h1>GABRIELY MENDES</h1>
-                        <div class="btn-contato">
-                            <a href="#">
-                                <button>Entre em contato</button>
-                            </a>
+        <section id="inicio" class="section">
+            <section class="topo-do-site">
+                <div class="interface">
+                    <div class="flex">
+                        <div class="txt-topo-site">
+                            <p>Me chamo</p>
+                            <h1>GABRIELY MENDES</h1>
+                            <div class="btn-contato">
+                                <a href="#contato" class="js-link">
+                                    <button>Entre em contato</button>
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="img-topo-site">
-                        <img src="Clawdeen.webp" alt="" width="200" height="400">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="especialidades">
-            <div class="interface">
-                <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
-                <div class="flex">
-                    <div class="especialidades-box">
-                        <img src="python 100.png" alt="">
-                        <h3>Python</h3>
-                        <p>Tenho conhecimentos básicos em Python.</p>
-                        <p>Foi a primeira linguagem que aprendi no curso de informática.</p>
-                    </div>
-
-                    <div class="especialidades-box">
-                        <img src="c 100.png" alt="">
-                        <h3>C</h3>
-                        <p>Tenho conhecimentos básicos em C.</p>
-                        <p>Aprendi um pouco no início do ano de 2023 por meio de vídeos.</p>
-                    </div>
-
-                    <div class="especialidades-box">
-                        <img src="c++ 100.png" alt="">
-                        <h3>C++</h3>
-                        <p>Tenho conhecimentos básicos em C++.</p>
-                        <p>Foi a segunda linguagem que aprendi no curso de informática.</p>
-                    </div>
-
-                    <br>
-                    <br>
-                    
-                    <div class="especialidades-box">
-                        <img src="react native 100.png" alt="">
-                        <h3>React Native</h3>
-                        <p>Tenho conhecimentos básicos em React Native.</p>
-                        <p>É baseada na linguagem Java Script, eu achei muito interessante a estrutura.</p>
-                    </div>
-
-                    <div class="especialidades-box">
-                        <img src="java 100.png" alt="">
-                        <h3>Java</h3>
-                        <p>Tenho conhecimentos básicos em Java.</p>
-                        <p>Foi a última linguagem que aprendi no curso de informática.</p>
-                    </div>
-
-
-                    <div class="especialidades-box">
-                        <img src="html 100.png" alt="">
-                        <h3>HTML</h3>
-                        <p>Tenho conhecimentos básicos em HTML.</p>
-                        <p>Acho uma ótima linguagem junto ao css para desenvolver sites.</p>
-                    </div>
-
-                </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <section class="sobre">
-            <div class="interface">
-                <div class="flex">
-                    <div class="img-sobre">
-                        <img src="foto portfolio3.jpg" alt="">
-                    </div>
-                    <div class="txt-sobre">
-                        <h2>MUITO PRAZER, <span>SOU GABRIELY MENDES</span></h2>
-                        <p>Olá, como já foi colocado me chamo Gabriely Mendes, sou estudante do segundo ano do ensino médio
-                            e do curso de informática. Gosto muito de aprender coisas novas, me dedicar e me esforçar no que for preciso,
-                            desde que contribua para o meu conhecimento.</p>
-                        <br>
-                        <p>Quis fazer o curso de informática pois achei que seria um dos mais abrangentes em qualquer área.
-                            Confesso que de início fiquei meio preocupada porque não sabia nem o que era linguagem de programação,
-                            nadinha de python, java... Mas agora, já no segundo ano, me sinto um pouco mais tranquila, 
-                            pois creio que me desenvolvi bem.</p>
-                        <div class="btn-social">
-                            <a href="https://www.instagram.com/gabriiely.m?igsh=Nm05NzcyM3doZTd0&utm_source=qr"><button><i class="bi bi-instagram"></i></button></a>
+                        <div class="img-topo-site">
+                            <img src="Clawdeen.webp" alt="" width="200" height="400">
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+        </section>
+
+        <section id="espec" class="section">
+            <section class="especialidades">
+                <div class="interface">
+                    <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
+                    <div class="flex">
+                        <div class="especialidades-box">
+                            <img src="python 100.png" alt="">
+                            <h3>Python</h3>
+                            <p>Tenho conhecimentos básicos em Python.</p>
+                            <p>Foi a primeira linguagem que aprendi no curso de informática.</p>
+                        </div>
+
+                        <div class="especialidades-box">
+                            <img src="c 100.png" alt="">
+                            <h3>C</h3>
+                            <p>Tenho conhecimentos básicos em C.</p>
+                            <p>Aprendi um pouco no início do ano de 2023 por meio de vídeos.</p>
+                        </div>
+
+                        <div class="especialidades-box">
+                            <img src="c++ 100.png" alt="">
+                            <h3>C++</h3>
+                            <p>Tenho conhecimentos básicos em C++.</p>
+                            <p>Foi a segunda linguagem que aprendi no curso de informática.</p>
+                        </div>
+
+                    </div>
+
+                    </div>
+                </div>
+            </section>
         </section>
 
 
+        <section id="espec" class="section">
+            <section class="especialidades">
+                <div class="interface">
+                    <div class="flex">
+                        <div class="especialidades-box">
+                            <img src="react native 100.png" alt="">
+                            <h3>React Native</h3>
+                            <p>Tenho conhecimentos básicos em React Native.</p>
+                            <p>É baseada na linguagem Java Script, eu achei muito interessante a estrutura.</p>
+                        </div>
 
-        <section class="projetos">
-            <div class="interface">
-                <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
-                <div class="flex">
-                    <a href="file:///C:/Users/gabri/OneDrive/Documentos/menu/menu/index.html"><div class="img-proj" style="background-image: url(print\ afetofloral.jpg);">
-                        <div class="overlay">Projeto Menu Hambúrguer</div>
-                    </div></a>
-                    <a href="file:///C:/Users/gabri/OneDrive/Documentos/sistema%20solar/sistema-solar/index.html"><div class="img-proj" style="background-image: url(print\ solar.jpg);">
-                        <div class="overlay">Projeto Sistema Solar</div>
-                    </div></a>
-                    <a href="file:///C:/Users/gabri/OneDrive/Documentos/imagens%20e%20videos%20no%20site/imagens-videos/index.html"><div class="img-proj" style="background-image: url(print\ img.jpg);">
-                        <div class="overlay">Projeto Imagens e Vídeos</div>
-                    </div></a>
+                        <div class="especialidades-box">
+                            <img src="java 100.png" alt="">
+                            <h3>Java</h3>
+                            <p>Tenho conhecimentos básicos em Java.</p>
+                            <p>Foi a última linguagem que aprendi no curso de informática.</p>
+                        </div>
+
+
+                        <div class="especialidades-box">
+                            <img src="html 100.png" alt="">
+                            <h3>HTML</h3>
+                            <p>Tenho conhecimentos básicos em HTML.</p>
+                            <p>Acho uma ótima linguagem junto ao css para desenvolver sites.</p>
+                        </div>
+
+                    </div>
+
+                    </div>
                 </div>
-            </div>
+            </section>
+        </section>
+
+
+        <section id="sobre" class="section">
+            <section class="sobre">
+                <div class="interface">
+                    <div class="flex">
+                        <div class="img-sobre">
+                            <img src="foto portfolio3.jpg" alt="">
+                        </div>
+                        <div class="txt-sobre">
+                            <h2>MUITO PRAZER, <span>SOU GABRIELY MENDES</span></h2>
+                            <p>Olá, como já foi colocado me chamo Gabriely Mendes, sou estudante do segundo ano do ensino médio
+                                e do curso de informática. Gosto muito de aprender coisas novas, me dedicar e me esforçar no que for preciso,
+                                desde que contribua para o meu conhecimento.</p>
+                            <br>
+                            <p>Quis fazer o curso de informática pois achei que seria um dos mais abrangentes em qualquer área.
+                                Confesso que de início fiquei meio preocupada porque não sabia nem o que era linguagem de programação,
+                                nadinha de python, java... Mas agora, já no segundo ano, me sinto um pouco mais tranquila, 
+                                pois creio que me desenvolvi bem.</p>
+                            <div class="btn-social">
+                                <a href="https://www.instagram.com/gabriiely.m?igsh=Nm05NzcyM3doZTd0&utm_source=qr"><button><i class="bi bi-instagram"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+        <section id="proj" class="section">
+            <section class="projetos">
+                <div class="interface">
+                    <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
+                    <div class="flex">
+                        <a href="file:///C:/Users/gabri/OneDrive/Documentos/menu/menu/index.html"><div class="img-proj" style="background-image: url(print\ afetofloral.jpg);">
+                            <div class="overlay">Projeto Menu Hambúrguer</div>
+                        </div></a>
+                        <a href="file:///C:/Users/gabri/OneDrive/Documentos/sistema%20solar/sistema-solar/index.html"><div class="img-proj" style="background-image: url(print\ solar.jpg);">
+                            <div class="overlay">Projeto Sistema Solar</div>
+                        </div></a>
+                        <a href="file:///C:/Users/gabri/OneDrive/Documentos/imagens%20e%20videos%20no%20site/imagens-videos/index.html"><div class="img-proj" style="background-image: url(print\ img.jpg);">
+                            <div class="overlay">Projeto Imagens e Vídeos</div>
+                        </div></a>
+                    </div>
+                </div>
+            </section>
         </section>
 
 
@@ -186,25 +202,27 @@
 
 
         <!--formulario-->
-        <section class="formulario">
-            <div class="interface">
-                <h2 class="titulo">FALE <span>COMIGO</span></h2>
+        <section id="contato" class="section">
+            <section class="formulario">
+                <div class="interface">
+                    <h2 class="titulo">FALE <span>COMIGO</span></h2>
 
-                <form action="https://formsubmit.co/prof.carlos.costa@acad.ifma.edu.br" method="post">
-                    <input type="text" name="nome" id="" placeholder="Seu nome" required>
-                    <input type="text" name="email" id="" placeholder="Seu email" required>
-                    <textarea name="mensagem" id="" placeholder="Sua mensagem"></textarea>
-                    <div class="btn-enviar">
-                        <input type="submit" value="ENVIAR">
-                    </div>
+                    <form action="https://formsubmit.co/prof.carlos.costa@acad.ifma.edu.br" method="post">
+                        <input type="text" name="nome" id="" placeholder="Seu nome" required>
+                        <input type="text" name="email" id="" placeholder="Seu email" required>
+                        <textarea name="mensagem" id="" placeholder="Sua mensagem"></textarea>
+                        <div class="btn-enviar">
+                            <input type="submit" value="ENVIAR">
+                        </div>
 
-                    <input type="hidden" name="_subject" value="Novo Contato!">
-                    <input type="text" name="_honey" style="display:none">
-                    
+                        <input type="hidden" name="_subject" value="Novo Contato!">
+                        <input type="text" name="_honey" style="display:none">
+                        
 
-                </form>
-            </div>
-        </section><!--formulario-->
+                    </form>
+                </div>
+            </section><!--formulario-->
+        </section>
 
     </main>
     
