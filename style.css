@@ -43,6 +43,11 @@ body{
     transition: .2s;
 }
 
+.menu-desktop li a:hover{
+    box-shadow: 0px 0px 8px rgba(240, 255, 255, 0.888);
+    transform: scale(1.05);
+}
+
 h2.titulo{
     color: #fff;
     font-size: 38px;
@@ -70,8 +75,9 @@ header{
     position: sticky;
     top: 0;
     width: 100%;
-    padding: 40px 4%;
-    z-index: 4000;
+    padding: 0px 1%;
+    z-index: 2023;
+    background-color: #690769;
 }
 header .interface{
     display: flex;
@@ -194,6 +200,7 @@ section.topo-do-site .flex{
 .topo-do-site .img-topo-site img{
     position: relative;
     animation: flutuar 4s ease-in-out infinite alternate;
+    left: 200px;
 }
 
 @keyframes flutuar{
@@ -429,6 +436,22 @@ footer .line-footer p a{
         padding: 0 20px;
         font-size: 15px;
     }
+
+    header{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        padding: 0px 1%;
+        z-index: 2023;
+        background-color: #690769;
+    }
+
+    .topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 4s ease-in-out infinite alternate;
+    left: 0px;
+}
+
 }
 
 
@@ -523,6 +546,12 @@ footer .line-footer p a{
 
     .btn-abrir-menu{
         display: flex;
+    }
+
+    .topo-do-site .img-topo-site img{
+        position: relative;
+        animation: flutuar 4s ease-in-out infinite alternate;
+        left: 0px;
     }
 
 }
