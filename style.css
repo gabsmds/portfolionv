@@ -72,13 +72,12 @@ button:hover{
 
 /* estilo do cabeçalho  */
 header{
-    z-index: var(--z-fixed);
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     padding: 0px 1%;
-    background-color: #690769;
+    z-index: 2023;
+
 }
 header .interface{
     display: flex;
@@ -202,7 +201,6 @@ section.topo-do-site .flex{
     position: relative;
     animation: flutuar 4s ease-in-out infinite alternate;
     left: 200px;
-    padding: 65px 10px;
 }
 
 @keyframes flutuar{
@@ -444,8 +442,6 @@ footer .line-footer p a{
         top: 0;
         width: 100%;
         padding: 0px 1%;
-        z-index: var(--z-fixed);
-        background-color: #690769;
     }
 
     .topo-do-site .img-topo-site img{
